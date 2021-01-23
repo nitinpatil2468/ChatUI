@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941130A825B2984200043F37 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130A725B2984200043F37 /* ChatCell.swift */; };
+		941130AC25B29AE800043F37 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130AB25B29AE800043F37 /* Utilities.swift */; };
+		941130B025B2D76500043F37 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130AE25B2D76500043F37 /* User+CoreDataClass.swift */; };
+		941130B125B2D76500043F37 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130AF25B2D76500043F37 /* User+CoreDataProperties.swift */; };
+		941130B725B2D77E00043F37 /* UserDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130B425B2D77E00043F37 /* UserDBHelper.swift */; };
+		941130BE25B2D7DD00043F37 /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130BD25B2D7DD00043F37 /* EntryItem.swift */; };
+		941130CD25B31B3600043F37 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130CC25B31B3600043F37 /* UserInfo.swift */; };
+		941130D225B3340000043F37 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130D125B333FF00043F37 /* ViewController+Extension.swift */; };
+		941130D825B3510600043F37 /* UserTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130D625B3510500043F37 /* UserTableController.swift */; };
+		941130D925B3510600043F37 /* ChatDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941130D725B3510500043F37 /* ChatDetailsController.swift */; };
 		941A1AEA25B1FAAC002B7495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A1AE925B1FAAC002B7495 /* AppDelegate.swift */; };
 		941A1AEC25B1FAAC002B7495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A1AEB25B1FAAC002B7495 /* SceneDelegate.swift */; };
-		941A1AEE25B1FAAC002B7495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A1AED25B1FAAC002B7495 /* ViewController.swift */; };
 		941A1AF125B1FAAC002B7495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941A1AEF25B1FAAC002B7495 /* Main.storyboard */; };
 		941A1AF425B1FAAC002B7495 /* Chat_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 941A1AF225B1FAAC002B7495 /* Chat_App.xcdatamodeld */; };
 		941A1AF625B1FAD2002B7495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941A1AF525B1FAD2002B7495 /* Assets.xcassets */; };
 		941A1AF925B1FAD2002B7495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941A1AF725B1FAD2002B7495 /* LaunchScreen.storyboard */; };
+		941A1B1725B1FDE3002B7495 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A1B1625B1FDE3002B7495 /* Extensions.swift */; };
+		941A1B3125B20779002B7495 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A1B2F25B20777002B7495 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941130A725B2984200043F37 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		941130AB25B29AE800043F37 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		941130AE25B2D76500043F37 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		941130AF25B2D76500043F37 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		941130B425B2D77E00043F37 /* UserDBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDBHelper.swift; sourceTree = "<group>"; };
+		941130BD25B2D7DD00043F37 /* EntryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
+		941130CC25B31B3600043F37 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		941130D125B333FF00043F37 /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		941130D625B3510500043F37 /* UserTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableController.swift; sourceTree = "<group>"; };
+		941130D725B3510500043F37 /* ChatDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsController.swift; sourceTree = "<group>"; };
 		941A1AE625B1FAAB002B7495 /* Chat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		941A1AE925B1FAAC002B7495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		941A1AEB25B1FAAC002B7495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		941A1AED25B1FAAC002B7495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		941A1AF025B1FAAC002B7495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		941A1AF325B1FAAC002B7495 /* Chat_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat_App.xcdatamodel; sourceTree = "<group>"; };
 		941A1AF525B1FAD2002B7495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		941A1AF825B1FAD2002B7495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		941A1AFA25B1FAD2002B7495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941A1B1625B1FDE3002B7495 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		941A1B2F25B20777002B7495 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941130B325B2D77E00043F37 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				941130AE25B2D76500043F37 /* User+CoreDataClass.swift */,
+				941130AF25B2D76500043F37 /* User+CoreDataProperties.swift */,
+				941130B425B2D77E00043F37 /* UserDBHelper.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		941130D525B3510500043F37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				941130D625B3510500043F37 /* UserTableController.swift */,
+				941130D725B3510500043F37 /* ChatDetailsController.swift */,
+			);
+			name = Controller;
+			path = "Chat App/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
 		941A1ADD25B1FAAB002B7495 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +100,13 @@
 		941A1AE825B1FAAB002B7495 /* Chat App */ = {
 			isa = PBXGroup;
 			children = (
+				941130D525B3510500043F37 /* Controller */,
+				941130B325B2D77E00043F37 /* CoreData */,
+				941A1B1525B1FDA0002B7495 /* Utils */,
+				941A1B1425B1FD96002B7495 /* Model */,
+				941A1B1125B1FD32002B7495 /* View */,
 				941A1AE925B1FAAC002B7495 /* AppDelegate.swift */,
 				941A1AEB25B1FAAC002B7495 /* SceneDelegate.swift */,
-				941A1AED25B1FAAC002B7495 /* ViewController.swift */,
 				941A1AEF25B1FAAC002B7495 /* Main.storyboard */,
 				941A1AF525B1FAD2002B7495 /* Assets.xcassets */,
 				941A1AF725B1FAD2002B7495 /* LaunchScreen.storyboard */,
@@ -68,6 +114,34 @@
 				941A1AF225B1FAAC002B7495 /* Chat_App.xcdatamodeld */,
 			);
 			path = "Chat App";
+			sourceTree = "<group>";
+		};
+		941A1B1125B1FD32002B7495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				941130A725B2984200043F37 /* ChatCell.swift */,
+				941A1B2F25B20777002B7495 /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		941A1B1425B1FD96002B7495 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				941130BD25B2D7DD00043F37 /* EntryItem.swift */,
+				941130CC25B31B3600043F37 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		941A1B1525B1FDA0002B7495 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				941A1B1625B1FDE3002B7495 /* Extensions.swift */,
+				941130D125B333FF00043F37 /* ViewController+Extension.swift */,
+				941130AB25B29AE800043F37 /* Utilities.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941A1AEE25B1FAAC002B7495 /* ViewController.swift in Sources */,
+				941130B725B2D77E00043F37 /* UserDBHelper.swift in Sources */,
+				941A1B1725B1FDE3002B7495 /* Extensions.swift in Sources */,
+				941130A825B2984200043F37 /* ChatCell.swift in Sources */,
 				941A1AF425B1FAAC002B7495 /* Chat_App.xcdatamodeld in Sources */,
 				941A1AEA25B1FAAC002B7495 /* AppDelegate.swift in Sources */,
+				941130B025B2D76500043F37 /* User+CoreDataClass.swift in Sources */,
+				941130D225B3340000043F37 /* ViewController+Extension.swift in Sources */,
+				941130D925B3510600043F37 /* ChatDetailsController.swift in Sources */,
+				941A1B3125B20779002B7495 /* UserCell.swift in Sources */,
+				941130AC25B29AE800043F37 /* Utilities.swift in Sources */,
+				941130B125B2D76500043F37 /* User+CoreDataProperties.swift in Sources */,
 				941A1AEC25B1FAAC002B7495 /* SceneDelegate.swift in Sources */,
+				941130CD25B31B3600043F37 /* UserInfo.swift in Sources */,
+				941130BE25B2D7DD00043F37 /* EntryItem.swift in Sources */,
+				941130D825B3510600043F37 /* UserTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
